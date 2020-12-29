@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+
+html,body {
+position: relative;
+overflow-x: hidden;
+scroll-behavior: smooth !important;
+}
+
+.wrapper {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; 
+  width: 100vw;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+.fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+#welcometext{
+  font-family:Marko One	;
+}
+
+.scroll-bg {
+  background-color: #0f0f0a;
+  padding: 10px 70px;
+  color: #676767; 
+}
+#scroll3{
+    background-image: url("2927262.jpg");
+    ground: rgba(0,0,0,1);
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgb(4, 101, 165) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(18%, rgba(0,0,0,1)), color-stop(100%, rgba(4, 101, 165)));
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+    background: -o-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0398fc', GradientType=1 );
+
+    color: rgb(202, 202, 202);
+}
+/*first background*/
+.bg-1 {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("bg-1.jpg");
+} 
+/*list part background*/
+.bg-2 {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('bg-2.jpg');
+  height:40vw;
+}
+/*events background*/
+.event_bg_1 {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('event-bg-1.jpg');
+}
+.event_bg_2 {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('event-bg-2.jpg');
+    
+  }
+  .event_bg_3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('event-bg-3.jpg');
+    
+  }.event_bg_4 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('event-bg-4.jpg');
+    
+  }.event_bg_5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('event-bg-5.jpg');
+
+  }.event_bg_6 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('event-bg-6.jpg');
+    
+  }.event_bg_7 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('event-bg-7.jpg');
+    
+  }.event_bg_8 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('event-bg-8.jpg');
+    
+  }.event_bg_9 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('event-bg-9.jpg');
+    
+  }
+.event_bg_10{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('event-bg-10.jpg');
+    
+  }
+  .bg-5 {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("logo_edited.jpg");
+    background-position: center;
+    background-size: contain;
+  }
+.logo{
+    width:60px !important;
+  
+  }
+  .logo:hover{
+      transform: scale(1.3);
+  }
+  #list{
+      font-size: 20px;
+      margin-left:4%;
+  }
+ #popup{
+         background-color: rgba(37, 36, 36, 0.596);
+         text-align: justify;
+         padding:4%;         
+     }
+       @media (max-width: 320px) { #nav-tabContent{ width:120px !important; text-align: left;
+     }
+  }
+  #welcometext{
+      font-weight:bold;
+      text-shadow:1px 1px #f7ecec;
+      font-size:5vw;
+  }
+  @media (max-width: 575.98px) { #welcometext { font-weight:bold;
+    font-size: 50px;
+    text-shadow: none;
+
+  } }
+  @media (max-width: 575.98px) { #list { width:400px; font-size: 14px; 
+    margin-top:3%;
+  } }
+
+  
+  @media (max-width: 575.98px) { #popup { flex-direction: row;
+    font-size:16px;
+    width:auto !important; overflow: auto;
+    
+   
+  }}
+  @media (max-width: 575.98px) { #scroll1 { text-align: justify; 
+   
+   
+  }}
+  @media (max-width: 575.98px) { #text-custom { text-align:center;
+    font-size:95%;      
+  }}
+  @media (max-width: 575.98px) { #text-custom-1 { text-align:center;
+    font-size:8vw !important;  
+  }}
+  @media (max-width: 575.98px) { #scroll2 { text-align: justify; font-size: 8vw;
+  }}
+#info{
+    border: 2px solid black;
+}
+#table{
+    border: 2px solid black;
+}
+#text-custom-1{
+    text-align: center;
+    font-size:7vw;
+    padding: 4px !important;
+    font-family:quicksand;
+}
+#text-2,#text-3,#text-4,#text-5{
+    text-align:justify;
+    margin-top:3%;
+    width: 600px !important;
+    overflow: none;
+    padding:3%;
+    background-color: rgba(0, 0, 0, 0.432);
+    border:3px solid rgba(175, 175, 175, 0.274);
+
+    margin-right:none;
+}
+@media (max-width: 575.98px) { #text-2 { text-align: justify;
+    font-size:4vw;  
+     text-align:justify;
+    margin-top:13%;
+    width: 70vw !important;
+    padding:3%;
+    margin-right:none;
+  }}
+  #table-2{
+    
+
+    overflow: none;
+    padding: 1%;
+    margin: 5%;
+    width: 450px !important;
+    background-color: rgba(175, 175, 175, 0.37);
+    border:3px solid rgba(0, 0, 0, 0.37);
+    font-size:93% !important;
+    color: wheat;
+    .frame::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+  
+
+  #table-2::-webkit-scrollbar:horizontal {
+      height: 11px;
+  }
+  
+  #table-2::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white; 
+      background-color: rgba(0, 0, 0, .5);
+  }      
+  }
+  #table-content{
+    color:black; font-weight: bold;
+  }
+  @media (max-width: 575.98px) { #table-2 { text-align: justify;
+    font-size:70% !important; width:70vw !important; overflow:scroll !important; margin-top:3%;
+   }}
+   @media (max-width: 575.98px) { #table-2::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar:vertical {
+    width: 0px;
+}
+
+::-webkit-scrollbar:horizontal{
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(238, 227, 227, 0.356);
+  border-radius: 3px;
+ 
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #161616;
+}
+  @media (max-width: 575.98px) { #table-content { width:90vw; overflow:scroll !important; scrollbar-width: 2px;
+    
+  }}
+  
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgba(5, 13, 90, 0.432);
+}
+#poster{
+  width:350px;
+  height:auto;
+  margin: 3%;
+  box-shadow: 0px 10px 10px -3px rgba(0, 0, 0, 0.575);
+
+}
+@media (max-width: 575.98px) { #poster { width:200px;}}
+
+#text-0{
+  display:flex;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  margin-top:20% !important;
+ padding:7%;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(228, 232, 238, 0.548);
+}
+/* #nav-color{
+  background-color: transparent !important;
+font-size:25px;
+text-align: center !important;
+}
+@media (max-width: 575.98px) { #nav-color { font-size: 20px;
+  background-color: tomato;
+    
+}} */
+#nav-color{
+  box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.575);
+  font-size: 20px;
+  ground: rgba(0,0,0,1);
+background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgb(4, 101, 165) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(18%, rgba(0,0,0,1)), color-stop(100%, rgba(4, 101, 165)));
+background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+background: -o-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+background: -ms-linear-gradient(-45deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+background: linear-gradient(135deg, rgba(0,0,0,1) 18%, rgba(4, 101, 165) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0398fc', GradientType=1 );
+}
+#list-settings-list:focus{
+  background-color: rgb(4, 101, 165) !important;
+}
+#list-settings-list:active{
+  background-color: rgb(4, 101, 165) !important;
+}
+#list-settings-list:visited{
+  background-color: rgb(4, 101, 165) !important;
+}
+
+ 
