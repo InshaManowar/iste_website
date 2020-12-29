@@ -105,9 +105,10 @@ footer i {
 /* Timeline styles */
 
 .timeline-container{
-	background-color: #1d1d1d;
+	background-color: #fff;
 	margin-right: auto;
 	height: auto;
+	color: #111;
 	padding: 2rem;
 
 }
@@ -116,7 +117,7 @@ h2{
 	text-align: center;
 	font-size: 3rem;
 	font-weight: bold;
-	color: #fff;
+	/* color: #fff; */
 }
 .timeline{
 	position: relative;
